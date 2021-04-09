@@ -1,0 +1,86 @@
+/* Recursos externos */
+@import url(https://use.fontawesome.com/releases/v5.15.3/css/all.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Reglas generales */
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.fondoDestacado{
+    background: #00669f
+}
+
+h3{
+    font-size: 48px;
+    line-height: 56.25px;
+    background: #1cd1b0;
+}
+
+h1{
+    font-size: 72px;
+    line-height: 84.38px;
+    color: #FFFFFF;
+}
+
+.contenido {
+    text-align: center; 
+}
+
+h2{
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-size: 36px;
+    line-height: 42.19px;
+    color: #333333
+}
+
+button {
+    font-size: 36px;
+    line-height: 42.19px;    
+}
+
+/* Pie de página*/
+
+footer {
+    position: relative;
+    height: 162px;
+}
+
+footer p{
+    color: #fff9f9;
+    padding: 60px;
+    text-align: center;
+    }
+
+footer img {
+    position: absolute;
+    top: 47px;
+    right: 77.89px;
+    bottom:47.64px;
+}
+
+
+/* Arreglando tarjetas */
+.tarjetas {
+    background: #f3f3f3;
+}
+
+.batman{
+    background: url(../img/bg-batman.jpg);
+}
+
+.mujerMaravilla {
+    background: url(../img/bg-wonderw.jpg)
+}
+
+.superman{
+    background: url(../img/bg-superman.jpg)
+}
