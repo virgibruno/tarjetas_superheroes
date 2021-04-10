@@ -10,7 +10,7 @@
 }
 
 .fondoDestacado{
-    background: #00669f
+    background: #00669f;
 }
 
 h3{
@@ -38,37 +38,23 @@ h2{
 p {
     font-size: 36px;
     line-height: 42.19px;
-    color: #333333
+    color: #333333;
 }
 
-button {
-    font-size: 36px;
-    line-height: 42.19px;  
-    height: 114px;
-    width: 345px; 
-    border-radius: 7px;
-    display: block;
-    margin: 0 auto;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
 
 /* Pie de página*/
 
 footer {
     position: relative;
     height: 162px;
-    margin-top: 338px;
+    margin-top: 200px;
 }
 
 footer p{
     color: #fff9f9;
     padding: 60px;
     text-align: center;
-    }
+}
 
 footer img {
     position: absolute;
@@ -78,7 +64,7 @@ footer img {
 }
 
 
-/* Arreglando tarjetas */
+/* Tarjetas */
 
 .tarjetas {
     background: #f3f3f3;
@@ -91,11 +77,11 @@ footer img {
 }
 
 .tarjetas p {
-    padding: 32px
+    padding: 32px;
 }
 
-
-.cara {
+/*
+.avatar {
     height: 352px;
     width: 352px;
     position: absolute;
@@ -103,26 +89,52 @@ footer img {
     left: 227px; 
 }
 
-.cara img{
+.avatar img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
-
+*/
 .batman{
-    background: url(../img/bg-batman.jpg);
-
+    background-image: url(../img/batman.jpg);
+    background-position-x: 57%;
 }
 
 .mujerMaravilla {
-    background: url(../img/bg-wonderw.jpg)
+    background-image: url(../img/wonderw.jpg);
+    background-size: 700px;
+    background-position-x: center;
 }
 
-.superman{
-    background: url(../img/bg-superman.jpg)
+.superman {
+    background: url(../img/superman.jpg);
+    background-size: 700px;
+    background-position-x: 45%;
 }
 
-.batman,.mujerMaravilla,.superman {
+.avatar{
+    border-radius: 50%;
+    width: 352px;
+    height: 352px;
+    position: absolute;
+    top: -176px;
+    left: 227px; 
+    background-repeat: no-repeat;
+}
+
+.batmanBg {
+    background: url(../img/bg-batman.jpg);
+}
+
+.mujerMaravillaBg {
+    background: url(../img/bg-wonderw.jpg);
+}
+
+.supermanBg {
+    background: url(../img/bg-superman.jpg);
+}
+
+.batmanBg,.mujerMaravillaBg,.supermanBg {
     height: 555px;
     width: 806px;
     border-radius: 67px;
@@ -134,13 +146,28 @@ footer img {
     background-size: cover;
 }
 
+
+/* Botones */
+
+a {
+    font-size: 36px;
+    width: 345px; 
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 0;
+    
+}
 .botonMas {
     border-radius: 50%;
     height: 150px;
     width: 150px;
     font-size: 55px;
-    position: fixed;
-    right: 106px;
+    position: sticky;
+    margin-right: 106px; 
     bottom: 106px;
 }
 
