@@ -17,12 +17,14 @@ h3{
     font-size: 48px;
     line-height: 56.25px;
     background: #1cd1b0;
+    padding-left: 25px;
 }
 
 h1{
     font-size: 72px;
     line-height: 84.38px;
     color: #FFFFFF;
+    padding-left: 25px;
 }
 
 h2{
@@ -140,4 +142,10 @@ footer img {
     position: fixed;
     right: 106px;
     bottom: 106px;
+}
+
+/* Páginas complementarias */
+
+.enConstruccion {
+    margin: 50px auto;
 }
