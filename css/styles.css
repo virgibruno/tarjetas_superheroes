@@ -25,14 +25,11 @@ h1{
     color: #FFFFFF;
 }
 
-.contenido {
-    text-align: center; 
-}
-
 h2{
     font-size: 64px;
     line-height: 75px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -44,7 +41,17 @@ p {
 
 button {
     font-size: 36px;
-    line-height: 42.19px;    
+    line-height: 42.19px;  
+    height: 114px;
+    width: 345px; 
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Pie de página*/
@@ -52,6 +59,7 @@ button {
 footer {
     position: relative;
     height: 162px;
+    margin-top: 338px;
 }
 
 footer p{
@@ -69,12 +77,39 @@ footer img {
 
 
 /* Arreglando tarjetas */
+
 .tarjetas {
     background: #f3f3f3;
+    width: 805px;
+    height: 872px;
+    margin: 0 auto;
+    position: relative;
+    top: -140px;
+    padding: 194px 44px;
+}
+
+.tarjetas p {
+    padding: 32px
+}
+
+
+.cara {
+    height: 352px;
+    width: 352px;
+    position: absolute;
+    top: -176px;
+    left: 227px; 
+}
+
+.cara img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 .batman{
     background: url(../img/bg-batman.jpg);
+
 }
 
 .mujerMaravilla {
@@ -83,4 +118,26 @@ footer img {
 
 .superman{
     background: url(../img/bg-superman.jpg)
+}
+
+.batman,.mujerMaravilla,.superman {
+    height: 555px;
+    width: 806px;
+    border-radius: 67px;
+    margin: 47px auto;
+    text-align: left;
+    padding-top: 44.59px;
+    padding-left: 57px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.botonMas {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-size: 55px;
+    position: fixed;
+    right: 106px;
+    bottom: 106px;
 }
